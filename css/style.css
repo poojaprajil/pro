@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-size: cover;
+}
+header {
+  background-color: black;
+  height: 6em;
+}
+img {
+  margin-left: 10%;
+  margin-top: 7px;
+}
+.head-tag {
+  float: right;
+  margin-top: 45px;
+  margin-right: 50px;
+}
+.head-tag a {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 8px;
+  margin-right: 8px;
+}
+.head-tag a:hover {
+  background-color: teal;
+  color: black;
+  transition: 0.5 ease-in-out;
+}
+.sidebar {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  padding: 100px;
+}
+.sidebar li {
+  list-style: square;
+  margin-bottom: 10px;
+}
+/* form */
+.login {
+  float: right;
+  border: 2px solid red;
+  background-color: beige;
+  height: 15em;
+  margin-top: 5%;
+  margin-right: 2%;
+  padding: 30px;
+}
+.login h2 {
+  text-align: center;
+}
+.login input {
+  height: 1.5em;
+}
+.login #login-button {
+  width: 100%;
+  height: 1.8em;
+  color: white;
+  background-color: dodgerblue;
+  border: 1px solid dodgerblue;
+}
+/* p-box */
+.container {
+  /* border: 2px solid black; */
+  margin-top: 7%;
+  margin-left: 1%;
+}
+.p-box {
+  border: 2px solid white;
+  width: 22%;
+  float: left;
+  margin-left: 10px;
+  height: 15em;
+  padding: 5px;
+  background-color: #cccccc;
+}
+.p-box h3 {
+  text-align: center;
+}
+.p-box p {
+  line-height: 1.25em;
+  text-align: justify;
+}
+.p-box a {
+  text-decoration: none;
+  color: red;
+}
+footer {
+  background-color: black;
+  color: white;
+  height: 1.5em;
+  margin-top: 29%;
+}
+footer h3 {
+  text-align: center;
+}

@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.p1 {
+    border:none;
+    width: 38%;
+    float: inherit;
+    margin-left: 30%;
+    height: 3em;
+    padding: 1px;
+    font-size: 1.5em;
+}
+p{
+    font-size: 1.5em;
+    margin-left: 30%;
+}
