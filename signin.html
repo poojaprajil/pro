@@ -7,24 +7,23 @@
   <body background="image/w1.jpg" >
         <div class="center">
       <h1>Sign In</h1>
-      <form action="post">
+      <form action="index.html" onsubmit="return validate();">
+         <div class="text"> 
+          <label>Username</label> 
+                   
+            <br>
+          <input type="email" placeholder="Email Address"  id="email" required/>
+         </div>
+         <br>
+        <label for="error" id="error"></label>
         <div class="text">
-          <!-- <input type="text" required /> -->
-          <!-- <label>Username</label> -->
-          <label>Username</label>
-          <br>
-          <input type="text" placeholder="Email Address" />
-        </div>
-        <div class="text">
-          <!-- <input type="password" required /> -->
-          <!-- <label>password</label> -->
-          <label>Password</label>
+          <label>password</label> 
+           <br>
+        <input type="password" placeholder="password" required />
+        </div> 
         <br>
-        <input type="password" placeholder="password" />
-        </div>
-        <br>
-          <div class="sub"> 
-            <input type="submit" value="Login" />
+          <div class="sub">  
+            <input id="submit"type="submit" value="Login" />
           </div>
           <br>
           <div class="signup">
@@ -35,5 +34,6 @@
         </div>
       </form>
     </div>
+    <script src="js/signin.js"></script>
   </body>
 </html>
